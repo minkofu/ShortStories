@@ -294,6 +294,18 @@ a{
     .img_6:hover::after{
         display: flex;
     }
+/* スクロールポタン */
+.fa-chevron-circle-up{
+    position: fixed;
+      right: 60px;
+      bottom: 30px;
+      width: 50px;
+      height: 50px;
+      color: #BABABA;
+      font-size: 45px;
+      cursor: pointer;
+}
+
 
 /* カテゴリーページ
 ------------------------------------ */
@@ -330,16 +342,16 @@ span:hover{
     box-shadow: 30px 30px 5px #9C6CC5;
 }
 
-.listin-title{
-    font-size: 16px;
-}
-
 .listin-title p{
+    font-size: 16px;
+    display: inline-block;
     color: #000;
 }
 
 .listin-title p:hover{
     color: #9C6CC5;
+    font-weight: 700;
+    background-color: #fff;
 }
 
 .list-bg{
