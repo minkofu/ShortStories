@@ -338,6 +338,10 @@ span:hover{
     color: #000;
 }
 
+.listin-title p:hover{
+    color: #9C6CC5;
+}
+
 .list-bg{
     margin: 100px 0;
     padding: 20px 0;
